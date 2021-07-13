@@ -2,7 +2,7 @@ BITS 16
 
 ; https://fr.wikipedia.org/wiki/INT_10H
 
-; nasm -f bin -o bootloader.img bootloader.s
+; nasm -f bin -o hello_world_boot.img hello_world_boot.s
 ; cat bootloader.img > /dev/fd0
 ; dd if=bootloader.img of=/dev/fd0
 
